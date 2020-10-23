@@ -1,0 +1,33 @@
+.f1{
+    
+    background-color: powderblue;
+    border:  2px solid tomato;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width:max-content; 
+    width: 500px;
+    margin-left: 30%; /* Отступ слева */
+    padding: 10px; 
+    font-family: 'Fredoka One', cursive; 
+  }
+
+input:invalid{
+    color: red;
+}
+input.valid{
+    color: seagreen;
+}
+.f1.a1{
+    text-decoration: none;
+}
+.a1:hover{
+    color: rgb(255, 0, 255);
+    border: 1px solid #0d6d58;
+   }
+.a1:focus{
+ color: rgb(149, 70, 180);
+}
+.a1:active{
+    color: #ff0;
+    border: 1px solid #0d6d58;
+   }
